@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Collections
-permalink: /docs/collections/
 ---
 
 # Требования по вёрстке
