@@ -13,6 +13,13 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  
 collections:
   docs:
+    output: true
+  vacancies:
+    output: true
+  portfolio:
     output: true
