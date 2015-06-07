@@ -3,20 +3,16 @@ layout: page
 title: Портфолио
 permalink: /portfolio/
 ---
----
 
 <div class="home">
-
-  <h1 class="page-heading">Портфолио</h1>
 
     <ul class="post-list">
       {% for post in site.portfolio  %}
       <li>      
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	  <a href={{post.portfoliourl}}>ссылка</a>
+
+	  <a href={{post.portfoliourl}}>          <img src="http://placehold.it/350x150"/></a>
         </h2>
       </li>
       {% endfor %}

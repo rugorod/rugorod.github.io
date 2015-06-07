@@ -1,6 +1,6 @@
 ---
 layout: vacancy
-title:  "Front-end программист"
+title:  "Front-end программист ashash"
 ---
 
 # Требования
